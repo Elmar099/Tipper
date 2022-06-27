@@ -1,0 +1,93 @@
+* {
+    font-family: Roboto;
+    margin: 0;
+}
+.container {
+    text-align: center;
+}
+.calcs {
+    border: 1px solid rgb(230, 228, 228);
+    margin-top: 20px;
+    text-align: center;
+}
+.header {
+    margin-top: 100px;
+    color: rgb(49, 65, 110);
+    font-size: 50px;
+    text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: opacity 0.2s;
+}
+.header:hover {opacity: 0.7;}
+a:link, a:active {text-decoration: none;}
+a:visited {color: rgb(49, 65, 110);}
+
+#price {
+    display: inline-block;   
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
+    width: 285px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#percentage {
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+#people {
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+}
+#submit {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    display: inline-block;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(74, 156, 243);
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+#submit:hover {
+    opacity: 0.8;
+}
+#submit:active {
+    opacity: 0.5;
+}
+.tip, #tip-1 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.total, #total-1 {
+    display: inline-block;
+}
+#total-1, #tip-1 {
+    font-size: 20px;
+}
+.tip2, .total2 {
+    display: inline-block;
+}
+.tip, .total {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+}
+.per {
+    display: inline-block;
+}
