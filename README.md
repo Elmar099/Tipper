@@ -1,2 +1,2 @@
 # Tipper
-😋 This is a tip calculator made using JavaScript and HTML.
+😋 This is made to make tipping easier adn faster among friends made using JavaScript and HTML.
